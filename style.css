@@ -50,7 +50,7 @@ body nav ul li {
 
 body nav ul li a:link,
 body nav ul li a:visited {
-    color: white;
+    color: rgb(32, 220, 107);
 }
 
 body nav ul li a:hover {
@@ -58,7 +58,7 @@ body nav ul li a:hover {
 }
 
 body nav ul li a:active {
-    color: rgb(2, 209, 30);
+    color: rgb(27, 177, 222);
 }
 
 .dropdown {
@@ -157,10 +157,14 @@ footer {
     margin-bottom: 20px;
 }
 
+footer nav ul li a:hover {
+    color: rgb(27, 177, 222);
+}
+
 .footer-item {
     padding-left: 25px;
     padding-right: 25px;
-    color: rgb(255, 255, 255);
+    color: rgb(32, 220, 107);
 }
 
 footer nav {
