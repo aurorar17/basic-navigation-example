@@ -62,18 +62,18 @@ body nav ul li a:active {
 }
 
 .dropdown {
-    position: relative;
+    position: absolute;
 }
 
 .dropdown-menu {
-    display: flex;
+    display: none;
     position: absolute;
     top: 100%;
     left: 0;
     background-color: #333;
     list-style-type: none;
     padding: 500;
-    margin: 0;
+    margin: 100;
     min-width: 160px;
 }
 
@@ -86,6 +86,7 @@ body nav ul li a:active {
     display: block;
     color: white;
     text-decoration: none;
+    background-color: 111;
 }
 
 .dropdown-menu a:hover {
@@ -94,6 +95,7 @@ body nav ul li a:active {
 
 .dropdown:hover .dropdown-menu {
     display: block;
+    height: 500px;
 }
 
 #current-page {
